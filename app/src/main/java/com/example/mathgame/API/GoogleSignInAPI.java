@@ -30,8 +30,11 @@ public class GoogleSignInAPI extends AppCompatActivity {
     private final static int RC_SIGN_IN = 123;
     private GoogleSignInClient mGoogleSignInClient;
 
-    Button verify;
+
     private FirebaseAuth mAuth;
+
+    //Initializing
+    Button verify;
 
     @Override
     protected void onStart() {
@@ -70,16 +73,19 @@ public class GoogleSignInAPI extends AppCompatActivity {
                 .requestEmail()
                 .build();
 
+        //Handing over the above request to the google sign in client.
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
     }
 
+
+    //This method will be called once the user clicks on the sign in button
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
 
 
-    //Method in firebase authentication
+    //This method will be called once the select an email account
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -93,6 +99,7 @@ public class GoogleSignInAPI extends AppCompatActivity {
                 firebaseAuthWithGoogle(account);
             } catch (ApiException e) {
                 // Google Sign In failed, update UI appropriately
+                //Showing the error message
                 Toast.makeText(this, "ABC " +e.getMessage(), Toast.LENGTH_SHORT).show();
                 Log.d("GOOGLE_ERROR", e.getMessage());
             }
@@ -100,7 +107,7 @@ public class GoogleSignInAPI extends AppCompatActivity {
     }
 
 
-    //Method in firebase authentication
+    //This method will be called when the user data has been received from the google
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
         mAuth.signInWithCredential(credential)

@@ -16,6 +16,8 @@ public class UserHelperClass {
         this.password = password;
     }
 
+
+    //Getters and Setters
     public String getfName() {
         return fName;
     }

@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class Question {
 
+    //Variables
     private int numberOne;
     private int numberTwo;
     private int answer;
