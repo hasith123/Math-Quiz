@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MathGame</string>
+    <string name="title_activity_login">Leanback Login</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="username1">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register1">Register</string>
+    <string name="title">Intellegency</string>
+    <string name="title1">"Numerical Competence "</string>
+    <string name="hint">Use Your Brain To Improve Your Mathematical Skills</string>
+    <string name="register">Register</string>
+    <string name="fullName">Full Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="phone">Contact Number</string>
+    <string name="password_register">Password</string>
+    <string name="already_have_an_account">Already Have an Account? Login</string>
+    <string name="register_user">registerUser</string>
+</resources>

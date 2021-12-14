@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "262844924831",
+    "firebase_url": "https://mathgame-8981e-default-rtdb.firebaseio.com",
+    "project_id": "mathgame-8981e",
+    "storage_bucket": "mathgame-8981e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262844924831:android:dff4dc440ad44c666833aa",
+        "android_client_info": {
+          "package_name": "com.example.mathgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262844924831-fvvus7un35cp7b0gk59p5ifjkhvs393b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mathgame",
+            "certificate_hash": "592462dc1bb277ef302e1849160df389b8b76ad4"
+          }
+        },
+        {
+          "client_id": "262844924831-7h7b8l8v1dhpprbqp1qbv7dkr1lds794.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5XAbMz4XesXnpHfEU2TfbUHwRxsm2n4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262844924831-7h7b8l8v1dhpprbqp1qbv7dkr1lds794.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
